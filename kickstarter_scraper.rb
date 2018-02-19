@@ -12,6 +12,7 @@ end
 # image link: project.css("div.project-thumbnail a img").attribute("src").value
 # description: project.css("p.bbcard_blurb").text
 #project location:
+# percent funded: percent_funded: project.css("ul.project-stats li.first.funded strong").text.gsub("%","").to_i
 
 
 create_project_hash
