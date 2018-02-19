@@ -1,5 +1,3 @@
-# require libraries/modules here
-require 'pry'
 require 'nokogiri'
 
 html = File.read('fixtures/kickstarter.html')
